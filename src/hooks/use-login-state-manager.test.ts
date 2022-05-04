@@ -1,7 +1,7 @@
 import { default as liffMock } from '@line/liff';
 import { renderHook, act } from '@testing-library/react-hooks';
 
-import { useLoginStateManager } from '#/use-login-state-manager';
+import { useLoginStateManager } from './use-login-state-manager';
 
 jest.mock('@line/liff');
 
